@@ -15,7 +15,7 @@
 <body>
 
     <nav>
-        <div class="navbar-text">Weather Dashboard</div>
+        <div class="navbar-text text-center display-2">Weather Dashboard</div>
     </nav>
 
     <br>
@@ -55,6 +55,151 @@
 
                 </div>
 
+                <div class="card mt-4">
+
+                    <div class="card-body dr-mel">
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-9">
+
+                <!--ROW FOR CURRENT DATE-->
+
+                <div class="row">
+
+                    <div class="card current">
+
+                        <div class="card-body">
+
+                            <p class="current-day"></p>
+                            <p class="city"></p>
+                            <p class="icon"></p>
+                            <p class="temp"></p>
+                            <p class="humidity"></p>
+                            <p class="wind"></p>
+                            <p class="uv"></p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <br>
+
+                <!--ROW FOR 5 DAY FORCAST-->
+                <div class="row">
+
+                    <div class="card five-day-forecast">
+
+                        <div class="card-body">
+                            5 Day Forecast
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <br>
+
+                <!--FIVE DAYS FORECAST STARTS HERE-->
+
+                <div class="row">
+
+                    <!--DAY 1-->
+                    <div class="col-md-2">
+                        
+                        <div class="card forecast">
+                            
+                            <div class="card-body">
+
+                                <p class="day-one-date"></p>
+                                <p class="day-one-icon"></p>
+                                <p class="day-one-temp"></p>
+                                <p class="day-one-humidity"></p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!--DAY 2-->
+                    <div class="col-md-2">
+
+                        <div class="card forecast">
+
+                            <div class="card-body">
+
+                                <p class="day-two-date"></p>
+                                <p class="day-two-icon"></p>
+                                <p class="day-two-temp"></p>
+                                <p class="day-two-humidity"></p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!--DAY 3-->
+                    <div class="col-md-2">
+
+                        <div class="card forecast">
+
+                            <div class="card-body">
+
+                                <p class="day-three-date"></p>
+                                <p class="day-three-icon"></p>
+                                <p class="day-three-temp"></p>
+                                <p class="day-three-humidity"></p>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                    <!--DAY 4-->
+                    <div class="col-md-2">
+
+                        <div class="card forecast">
+
+                            <div class="card-body">
+
+                                <p class="day-four-date"></p>
+                                <p class="day-four-icon"></p>
+                                <p class="day-four-temp"></p>
+                                <p class="day-four-humidity"></p>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                    <!--DAY 5-->
+                    <div class="col-md-2">
+
+                        <div class="card forecast">
+
+                            <div class="card-body">
+
+                                <p class="day-five-date"></p>
+                                <p class="day-five-icon"></p>
+                                <p class="day-five-temp"></p>
+                                <p class="day-five-humidity"></p>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+
             </div>
 
         </div>
@@ -66,6 +211,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!--Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <!--Moment JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="./Assets/script.js"></script>
 </body>
 </html>
